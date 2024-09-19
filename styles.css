@@ -103,7 +103,7 @@ li {
 
 .timeline-entry {
   margin-top: 1em;
-cursor: pointer;
+  cursor: pointer;
   transition: all 0.3s ease-in-out; 
 }
 
@@ -126,11 +126,6 @@ cursor: pointer;
 /* Transition for smooth toggling of description */
 .timeline-content p {
   transition: all 0.3s ease-in-out;
-}
-
-/* Style for hiding/showing description */
-.hidden {
-  display: none;
 }
 
 .shown {
